@@ -8,15 +8,6 @@ So I have built my site using react.js as a front end, node.js as a back-end, an
 ### MongoDB database import command
 Please import the databases after cloning this repo.
 
-`````````````````````````````````````
-
-cd reactjs-portfolio-mern-website/databases
-
-mongoimport --uri "mongodb://127.0.0.1:27017/portfolio" --collection skills --jsonArray --file skills.json
-mongoimport --uri "mongodb://127.0.0.1:27017/portfolio" --collection projects --jsonArray --file projects.json
-mongoimport --uri "mongodb://127.0.0.1:27017/portfolio" --collection blogs --jsonArray --file blogs.json
-`````````````````````````````````````
-
 ### Installation
 ``````````````````````````````````````
 cd reactjs-portfolio-mern-website
